@@ -1,0 +1,2 @@
+weather,base,visibility,dt,timezone,id,name,cod,coord.lon,coord.lat,main.temp,main.feels_like,main.temp_min,main.temp_max,main.pressure,main.humidity,wind.speed,wind.deg,wind.gust,clouds.all,sys.type,sys.id,sys.country,sys.sunrise,sys.sunset
+"[{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}]",stations,10000,1690328517,-10800,3435910,Buenos Aires,200,-58.3772,-34.6132,285.49,285.1,284.78,286,1016,89,9.39,100,0,100,2,2084309,AR,1690282358,1690319226

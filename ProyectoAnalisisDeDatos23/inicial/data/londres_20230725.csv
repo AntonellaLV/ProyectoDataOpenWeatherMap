@@ -1,0 +1,2 @@
+weather,base,visibility,dt,timezone,id,name,cod,coord.lon,coord.lat,main.temp,main.feels_like,main.temp_min,main.temp_max,main.pressure,main.humidity,wind.speed,wind.deg,wind.gust,clouds.all,sys.type,sys.id,sys.country,sys.sunrise,sys.sunset
+"[{'id': 802, 'main': 'Clouds', 'description': 'scattered clouds', 'icon': '03n'}]",stations,10000,1690328223,3600,2643743,London,200,-0.1257,51.5085,286.56,285.94,284.26,288.16,1011,76,2.82,298,5.03,42,2,2075535,GB,1690344883,1690401542

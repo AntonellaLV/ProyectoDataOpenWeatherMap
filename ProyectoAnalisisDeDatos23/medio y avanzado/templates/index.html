@@ -1,0 +1,28 @@
+
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form action="/" method="post">
+            <input type="text" name="city" placeholder="Ingrese una ciudad" required>
+            <button type="submit">Buscar</button>
+        </form>
+        {% if weather_data %}
+        <div class="weather-info">
+            <h2>{{ weather_data['city'] }}</h2>
+            <p>{{ weather_data['description'] }}</p>
+            <p>Temperatura: {{ weather_data['temperature'] }}°C</p>
+            <p>Humedad: {{ weather_data['humidity'] }}%</p>
+            <p>Viento: {{ weather_data['wind_speed'] }} km/h</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,2 @@
+weather,base,visibility,dt,timezone,id,name,cod,coord.lon,coord.lat,main.temp,main.feels_like,main.temp_min,main.temp_max,main.pressure,main.humidity,wind.speed,wind.deg,clouds.all,sys.type,sys.id,sys.country,sys.sunrise,sys.sunset
+"[{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}]",stations,10000,1690328118,-10800,3860259,Córdoba,200,-64.1811,-31.4135,281.96,280.51,279.62,284.39,987,85,2.57,60,0,2,2036678,AR,1690283360,1690321010

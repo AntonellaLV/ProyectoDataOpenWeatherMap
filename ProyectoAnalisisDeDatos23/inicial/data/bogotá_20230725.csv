@@ -1,0 +1,2 @@
+weather,base,visibility,dt,timezone,id,name,cod,coord.lon,coord.lat,main.temp,main.feels_like,main.temp_min,main.temp_max,main.pressure,main.humidity,wind.speed,wind.deg,clouds.all,sys.type,sys.id,sys.country,sys.sunrise,sys.sunset
+"[{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}]",stations,10000,1690328374,-18000,3688689,Bogota,200,-74.0817,4.6097,288.88,288.65,288.88,288.88,1026,82,1.03,0,75,1,8582,CO,1690282352,1690326770

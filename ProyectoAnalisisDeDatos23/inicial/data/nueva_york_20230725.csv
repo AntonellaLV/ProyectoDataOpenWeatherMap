@@ -1,0 +1,2 @@
+weather,base,visibility,dt,timezone,id,name,cod,coord.lon,coord.lat,main.temp,main.feels_like,main.temp_min,main.temp_max,main.pressure,main.humidity,main.sea_level,main.grnd_level,wind.speed,wind.deg,wind.gust,clouds.all,sys.type,sys.id,sys.country,sys.sunrise,sys.sunset
+"[{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01d'}]",stations,10000,1690328696,-25200,4017728,Nueva York,200,-111.8185,28.9688,313.02,320.02,311.7,313.02,1009,47,1009,1007,4.79,213,4.33,0,2,2002205,MX,1690289034,1690338202

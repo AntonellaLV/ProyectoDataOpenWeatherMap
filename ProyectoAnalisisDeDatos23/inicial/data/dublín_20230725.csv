@@ -1,0 +1,2 @@
+weather,base,visibility,dt,timezone,id,name,cod,coord.lon,coord.lat,main.temp,main.feels_like,main.temp_min,main.temp_max,main.pressure,main.humidity,wind.speed,wind.deg,clouds.all,sys.type,sys.id,sys.country,sys.sunrise,sys.sunset
+"[{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02n'}]",stations,10000,1690328372,3600,2964574,Dublin,200,-6.2672,53.344,287.33,287,287.22,287.68,1012,84,4.12,220,20,2,2016139,IE,1690345862,1690403512

@@ -1,0 +1,2 @@
+weather,base,visibility,dt,timezone,id,name,cod,coord.lon,coord.lat,main.temp,main.feels_like,main.temp_min,main.temp_max,main.pressure,main.humidity,wind.speed,wind.deg,rain.1h,clouds.all,sys.type,sys.id,sys.country,sys.sunrise,sys.sunset
+"[{'id': 501, 'main': 'Rain', 'description': 'moderate rain', 'icon': '10d'}]",stations,10000,1690328662,-21600,3530597,Mexico City,200,-99.1277,19.4285,292.11,291.6,292.11,293.4,1027,59,5.14,20,4,100,1,7146,MX,1690287009,1690334136

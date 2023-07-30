@@ -1,0 +1,2 @@
+weather,base,visibility,dt,timezone,id,name,cod,coord.lon,coord.lat,main.temp,main.feels_like,main.temp_min,main.temp_max,main.pressure,main.humidity,wind.speed,wind.deg,clouds.all,sys.type,sys.id,sys.country,sys.sunrise,sys.sunset
+"[{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04d'}]",stations,10000,1690328103,28800,1668341,Taipei,200,121.5319,25.0478,302.25,305.01,301.75,304.27,1003,64,7.2,80,75,2,266033,TW,1690319882,1690368148
