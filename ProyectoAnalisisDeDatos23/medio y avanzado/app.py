@@ -1,3 +1,11 @@
+# app.py número 2: REST API
+'''from flask import Flask
+app = Flask(__name__)
+
+if __name__ == '__main__':
+    app.run()'''
+
+#app.py número 1: Enrutamiento en Flask
 import os
 import requests
 from flask import Flask, render_template, request

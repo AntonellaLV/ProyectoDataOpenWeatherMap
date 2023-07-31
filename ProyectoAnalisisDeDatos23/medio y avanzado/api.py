@@ -1,4 +1,5 @@
-from flask import Flask, jsonify, request
+#api.py
+from flask import jsonify, request
 from app import app
 from utils import get_weather_data
 
@@ -18,3 +19,4 @@ def get_weather():
 
 if __name__ == '__main__':
     app.run()
+
