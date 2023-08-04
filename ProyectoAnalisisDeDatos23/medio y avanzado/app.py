@@ -1,11 +1,16 @@
-# app.py número 2: REST API
+# Para tener en cuenta.
+# Al momento de ejecutar la app web, ejecutar (python app.py) en la consola.
+# Para ejecutar la API de consultas en formato JSON como por ejemplo, para ser utilizada en Postman, (python api.py) en la consola.
+
+# app.py número 2: REST API (información de código)
 '''from flask import Flask
 app = Flask(__name__)
 
 if __name__ == '__main__':
     app.run()'''
 
-#app.py número 1: Enrutamiento en Flask
+#app.py número 1: Enrutamiento en Flask (información de código)
+
 import os
 import requests
 from flask import Flask, render_template, request
