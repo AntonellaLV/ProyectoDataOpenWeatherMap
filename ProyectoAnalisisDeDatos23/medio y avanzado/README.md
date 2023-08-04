@@ -25,14 +25,25 @@ al directorio raíz del proyecto. Ejecuta los siguientes comandos:
 ```bash
     pip install -r requirements.txt
 ```
+Si se presenta un mensaje de advertencia que indica que el paquete grapheme se está instalando utilizando el método heredado setup.py install, esto podría ser problemático en futuras versiones de pip.
+La advertencia sugiere habilitar la opción --use-pep517 para evitar posibles problemas en el futuro.
+
+Para resolver esta advertencia, intenta instalar el paquete grapheme utilizando la opción --use-pep517 de pip. Ejecutar el siguiente código en la consola.
+
+```Copy code
+pip install --use-pep517 grapheme (por medio de la consola)
+```
+
 4. Para crear la base de datos modificar los datos en config.py y ejecutar el scriptdb.py
 ```bash
     python scriptdb.py
 ```
+
 5. Ejecuta el proyecto. En la terminal, estando en el directorio raíz del proyecto, ejecuta el siguiente comando:
 ```bash
     python main.py
 ```
+
 6. 
 **Instalar Flask y Requests**
 
@@ -90,8 +101,7 @@ Estructura de proyecto para la REST API.
 - **`api.py`**: Aquí se definen las rutas y las funciones que maneja las solicitudes HTTP y proporciona los datos climáticos a través de la API RESTful.
 - **`utils.py`**: En este archivo, se escriben funciones de utilidad que interactuarán con la API de OpenWeatherMap.
 
-**Funciones de utilidad**
-
+**Para ejecutar la API REST**
 
 ```bash
 python api.py
@@ -99,7 +109,7 @@ python api.py
 
 **API en JSON**
 
-REST API utilizando herramientas como **`curl`**, **`httpie`** o un cliente REST como Postman. Aquí hay un ejemplo de cómo probar la API con **`httpie`**:
+REST API utilizando herramientas como **`curl`**, **`httpie`** o un cliente REST como Postman o SOAP. Aquí hay un ejemplo de cómo probar la API con **`httpie`**:
 
 ```bash
 # Obtener datos climáticos para una ciudad específica (por ejemplo, Londres)
