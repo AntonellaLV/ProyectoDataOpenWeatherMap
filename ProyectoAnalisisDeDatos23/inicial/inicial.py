@@ -7,7 +7,7 @@ import json
 def obtener_datos_climaticos(ciudad, coords):
     # Definir la URL base de la API de OpenWeatherMap
     BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
-    API_KEY = "cf9cc3cd9216d61286cb5b7ffa89d392"
+    API_KEY = "0826c4779496abe5470b904311fa3097"
 
     # Construir la URL completa con la ciudad y coordenadas
     url = f"{BASE_URL}{coords}&q={ciudad}&appid={API_KEY}"
